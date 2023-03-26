@@ -7,14 +7,14 @@ export default function Login(){
         <div id='login-page'>
             <form id='login-form'>
 
-                <h2 style={{textAlign:'center'}}>Log in</h2>
+                <h2 style={{textAlign:'center'}} className='mb-4'>Log in</h2>
 
-                <div className='row mb-3'>
+                <div className='row mb-4'>
                     <label className='form-label'>User name:</label>
                     <input placeholder='Enter User Name'className='form-control' type='text' />
                 </div>
                 
-                <div className='row mb-3'>
+                <div className='row mb-4'>
                     <label className='form-label'>Password</label>
                     <input placeholder='Enter Password' className='form-control' type = 'password'/>
                 </div>
