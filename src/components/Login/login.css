@@ -1,0 +1,15 @@
+#login-form{
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    left: 67%;
+    text-align: left;
+    border-radius: 5%;
+}
+
+#login-page{
+    height: 540px;
+    background-color: #dcdcdc
+}
