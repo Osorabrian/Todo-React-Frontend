@@ -4,9 +4,12 @@
 }
 
 #signup-form{
+    padding: 30px;
+    background-color: white;
     position: absolute;
-    top: 20%;
-    left: 30%;
-    width: 40%;
+    top: 15%;
+    left: 63%;
+    width: 35%;
     text-align: left;
+    border-radius: 3%;
 }
