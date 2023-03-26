@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 import './todos.css'
 
 export default function TodosTable(){
@@ -22,7 +23,7 @@ export default function TodosTable(){
                     <td>HIGH</td>
                     <td className="row">
                         <div className="col-6">
-                            <button className="btn btn-info">Update</button>
+                            <NavLink className="btn btn-info" to='/update-todos'>Update</NavLink>
                         </div>
                         <div className="col-6">
                             <button className="btn btn-danger">Delete</button>

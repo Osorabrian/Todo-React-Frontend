@@ -4,6 +4,7 @@ import Login from '../Login/loginpage';
 import SignUpPage from '../Signup/signuppage';
 import Todos from '../Todos/todospage';
 import CreatePage from '../Create/createpage';
+import UpdatePage from '../Update/updatepage';
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route element={<SignUpPage/>} path='signup'/>
         <Route element={<CreatePage/>} path='create-todos'/>
         <Route element={<Todos/>} path='todos' />
+        <Route element={<UpdatePage/>} path='update-todos'/>
       </Routes>
     </div>
   );
