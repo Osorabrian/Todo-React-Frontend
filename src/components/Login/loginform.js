@@ -1,11 +1,10 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import './login.css'
+import { NavLink } from 'react-router-dom'
 
-export default function Login(){
+export default function LogInForm(){
     return(
-        <div id='login-page'>
-            <form id='login-form'>
+        <form id='login-form'>
 
                 <h2 style={{textAlign:'center'}} className='mb-4'>Log in</h2>
 
@@ -26,6 +25,5 @@ export default function Login(){
                 </div>
 
             </form>
-        </div>
     )
 }

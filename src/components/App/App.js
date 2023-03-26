@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from '../Navbar/navbar';
-import Login from '../Login/login';
-import SignUpPage from '../Signup/signup';
+import Login from '../Login/loginpage';
+import SignUpPage from '../Signup/signuppage';
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
