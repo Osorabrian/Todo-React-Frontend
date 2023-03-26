@@ -1,0 +1,12 @@
+#signup-page{
+    height: 540px;
+    background-color: #dcdcdc;
+}
+
+#signup-form{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    text-align: left;
+}
