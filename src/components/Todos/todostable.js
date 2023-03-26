@@ -1,8 +1,9 @@
 import React from "react"
+import './todos.css'
 
 export default function TodosTable(){
     return(
-        <table className="table">
+        <table className="table table-hover" id='todos-table'>
             <thead>
                 <tr>
                     <th>Title</th>
@@ -13,7 +14,7 @@ export default function TodosTable(){
                 </tr>
                 
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
                 <tr>
                     <td>Morning Standup</td>
                     <td>Attend morning standup</td>

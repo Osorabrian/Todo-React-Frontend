@@ -1,0 +1,13 @@
+#todos-page{
+    height: 540px;
+    background-color: #dcdcdc;
+}
+
+#todos-table{
+    border-radius: 7px;
+    background-color: white;
+    position: absolute;
+    top: 22%;
+    left: 12%;
+    width: 80%;
+}
