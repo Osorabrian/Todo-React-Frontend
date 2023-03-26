@@ -11,7 +11,7 @@ export default function CreateForm(){
 
     const navigate = useNavigate()
 
-    const formData = {title, description, status, priority}
+    const formData = {title, description, status: parseInt(status), priority: parseInt(priority)}
 
     function handleCreate(e){
         e.preventDefault()
