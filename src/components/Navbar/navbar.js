@@ -6,7 +6,7 @@ export default function Navbar(){
         <div className='navbar'>
             <NavLink to='/' className={'navbar-brand'}>Todo</NavLink>
             <ul className='me-auto'>
-                <NavLink to='/home' className={'nav-item me-3'}>Home</NavLink>
+                <NavLink to='/todos' className={'nav-item me-3'}>Todos</NavLink>
                 <NavLink to='/logout' className={'nav-item me-3'}>Log out</NavLink>
                 <NavLink to='/' className={'nav-item me-3'}>Log in</NavLink>
                 <NavLink to="/signup" className={'nav-item me-3'}>Sign up</NavLink>
