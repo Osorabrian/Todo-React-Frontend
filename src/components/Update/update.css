@@ -1,0 +1,15 @@
+#update-form{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#update-page{
+    background-color: #dcdcdc;
+    height: 540px;
+}

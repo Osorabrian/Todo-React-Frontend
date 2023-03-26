@@ -1,4 +1,5 @@
 import React from "react";
+import './update.css'
 
 export default function UpdateForm(){
     return(
@@ -36,6 +37,11 @@ export default function UpdateForm(){
                         <option value={2}>HIGH</option>
                     </select>
                 </div>
+
+            </div>
+
+            <div style={{textAlign: 'center'}}>
+                <button  className='btn btn-primary' type="submit">Update Todo</button>
             </div>
 
         </form>

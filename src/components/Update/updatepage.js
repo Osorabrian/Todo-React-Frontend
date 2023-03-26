@@ -1,4 +1,5 @@
 import React from "react";
+import './update.css'
 import UpdateForm from "./updateform";
 
 export default function UpdatePage(){
