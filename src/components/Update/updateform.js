@@ -5,19 +5,19 @@ export default function UpdateForm(){
     return(
         <form id='update-form'>
 
-            <div className="row mb-3">
+            <div className="row mb-2">
                 <label className="form-label">Title:</label>
                 <input className="form-control" type={'text'} placeholder='Enter Title' required/>
                 <p className="form-text">Title must be between 8 and 20 characters</p>
             </div>
 
-            <div className="row mb-3">
+            <div className="row mb-2">
                 <label className="form-label">Description:</label>
-                <textarea className="form-control" row='3' placeholder='Enter Description' required/>
+                <textarea className="form-control" rows='3' placeholder='Enter Description' required/>
                 <p className="form-text">Description should not have less than 20 characters</p>
             </div>
 
-            <div className="row mb-3">
+            <div className="row mb-4">
 
                 <div className="col-6">
                     <label>Status:</label>
@@ -41,7 +41,7 @@ export default function UpdateForm(){
             </div>
 
             <div style={{textAlign: 'center'}}>
-                <button  className='btn btn-primary' type="submit">Update Todo</button>
+                <button  className='btn btn-primary' type="submit" style={{width: '200px'}}>Update Todo</button>
             </div>
 
         </form>

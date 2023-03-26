@@ -13,7 +13,7 @@ export default function CreateForm(){
             <div className="row mb-2">
                 <label className="form-label">Description:</label>
                 <textarea className="form-control" rows='3' placeholder="Enter Description" required/>
-                <p className="form-text">Description must be between not less than 20 characters</p>
+                <p className="form-text">Description should not have less than 20 characters</p>
             </div>
 
             <div className="row mb-4">
@@ -40,7 +40,7 @@ export default function CreateForm(){
             </div>
 
             <div style={{textAlign: 'center'}}>
-                <button className="btn btn-primary" style={{width: '300px'}}>Create Todo</button>
+                <button className="btn btn-primary" style={{width: '200px'}}>Create Todo</button>
             </div>
 
         </form>
