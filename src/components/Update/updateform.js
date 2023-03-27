@@ -25,13 +25,13 @@ export default function UpdateForm(){
 
             <div className="row mb-2">
                 <label className="form-label">Title:</label>
-                <input className="form-control" type={'text'} placeholder='Enter Title' required onChange={e => setTitle(e.target.value)}/>
+                <input className="form-control" type={'text'} placeholder='Enter Title' required minLength={'8'} maxLength={'20'} onChange={e => setTitle(e.target.value)}/>
                 <p className="form-text">Title must be between 8 and 20 characters</p>
             </div>
 
             <div className="row mb-2">
                 <label className="form-label">Description:</label>
-                <textarea className="form-control" rows='3' placeholder='Enter Description' required onChange={e => setDescription(e.target.value)}/>
+                <textarea className="form-control" rows='3' placeholder='Enter Description' required  minLength={'20'} onChange={e => setDescription(e.target.value)}/>
                 <p className="form-text">Description should not have less than 20 characters</p>
             </div>
 
